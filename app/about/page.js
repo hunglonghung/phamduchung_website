@@ -182,7 +182,7 @@ export default function AboutMe() {
               {/* Link nằm dưới cùng bên phải */}
               <div className="flex justify-end">
                 <a
-                  href="https://github.com/your-profile"
+                  href="https://github.com/hunglonghung"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-white font-bold text-xl hover:underline"

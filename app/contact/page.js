@@ -1,13 +1,11 @@
-"use client"
-// Để dùng Framer Motion trong page
+"use client" // Enable Framer Motion in this page
 
-import Link from "next/link"
 import { motion } from "framer-motion"
 import { Card } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { TypographyH1, TypographyP } from "@/components/ui/typography"
 
-// Giả sử bạn có các component Input và Textarea từ thư viện UI của bạn (ví dụ: shadcn/ui)
+// Assuming you have Input and Textarea components from your UI library (e.g., shadcn/ui)
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 
@@ -24,52 +22,45 @@ export default function Contact() {
           Contact Me
         </TypographyH1>
         <TypographyP className="text-center text-gray-700 mb-8">
-          Hãy liên hệ với tôi thông qua form dưới đây hoặc qua email.
+          Feel free to reach out through the form below or via email.
         </TypographyP>
 
         <Card className="p-6">
           <form className="flex flex-col gap-4">
             <div>
               <label className="block text-gray-700 font-semibold mb-1">
-                Họ và tên
+                Full Name
               </label>
-              <Input type="text" placeholder="Nhập tên của bạn" className="w-full" />
+              <Input type="text" placeholder="Enter your name" className="w-full" />
             </div>
             <div>
               <label className="block text-gray-700 font-semibold mb-1">
                 Email
               </label>
-              <Input type="email" placeholder="Nhập email của bạn" className="w-full" />
+              <Input type="email" placeholder="Enter your email" className="w-full" />
             </div>
             <div>
               <label className="block text-gray-700 font-semibold mb-1">
-                Tin nhắn
+                Message
               </label>
-              <Textarea placeholder="Nhập tin nhắn của bạn" className="w-full" rows={4} />
+              <Textarea placeholder="Enter your message" className="w-full" rows={4} />
             </div>
             <Button type="submit" className="self-center mt-4">
-              Gửi tin nhắn
+              Send Message
             </Button>
           </form>
         </Card>
 
         <div className="mt-6 text-center">
           <TypographyP className="text-gray-600">
-            Hoặc liên hệ qua email:{" "}
+            Or contact me via email:{" "}
             <a
-              href="mailto:your-email@example.com"
+              href="mailto:raidenshogun18042004@gmail.com"
               className="text-blue-600 hover:underline"
             >
-              your-email@example.com
+              raidenshogun18042004@gmail.com
             </a>
           </TypographyP>
-        </div>
-
-        {/* Link quay về trang chủ */}
-        <div className="mt-8 text-center">
-          <Link href="/" className="text-blue-600 hover:underline">
-            ← Back to Home
-          </Link>
         </div>
       </motion.section>
     </main>
