@@ -33,18 +33,18 @@ export default function Home() {
                   I enjoy turning ideas into real applications.
                 </p>
                 <div className="flex justify-center space-x-3 mt-4">
-                  <Link href="https://linkedin.com" target="_blank" className="flex items-center gap-1">
-                    <Button variant="outline" className="flex items-center gap-1 text-sm">
+                  <Link href="https://www.linkedin.com/in/hungpham18042004/" target="_blank" className="flex items-center gap-1">
+                    <Button variant="outline" className="flex items-center gap-1 text-sm cursor-pointer">
                       <Linkedin className="w-4 h-4" /> LinkedIn
                     </Button>
                   </Link>
-                  <Link href="https://twitter.com" target="_blank" className="flex items-center gap-1">
-                    <Button variant="outline" className="flex items-center gap-1 text-sm">
+                  <Link href="https://x.com/hungphams1804" target="_blank" className="flex items-center gap-1">
+                    <Button variant="outline" className="flex items-center gap-1 text-sm cursor-pointer">
                       <Twitter className="w-4 h-4" /> Twitter
                     </Button>
                   </Link>
-                  <Link href="https://github.com" target="_blank" className="flex items-center gap-1">
-                    <Button variant="outline" className="flex items-center gap-1 text-sm">
+                  <Link href="https://github.https://github.com/hunglonghung" target="_blank" className="flex items-center gap-1">
+                    <Button variant="outline" className="flex items-center gap-1 text-sm cursor-pointer">
                       <Github className="w-4 h-4" /> GitHub
                     </Button>
                   </Link>
@@ -69,8 +69,8 @@ export default function Home() {
                   and staying active through sports. I believe good teamwork and positive energy always make projects better.
                 </TypographyP>
                 <div className="flex flex-col md:flex-row gap-3">
-                  <Button id="resume" className="px-6">Resume</Button>
-                  <Button id="projects" variant="outline" className="px-6">Projects</Button>
+                  <Button id="resume" className="px-6 cursor-pointer">Resume</Button>
+                  <Button id="projects" variant="outline" className="px-6 cursor-pointer">Projects</Button>
                 </div>
               </CardContent>
             </Card>
@@ -80,13 +80,13 @@ export default function Home() {
             <div className="flex flex-col items-center justify-center text-center">
               <p className="text-sm font-semibold text-gray-700 mb-2">Follow me on:</p>
               <div className="flex items-center justify-center gap-3">
-                <Link href="https://instagram.com" target="_blank" className="text-gray-600 hover:text-gray-800">
+                <Link href="https://www.instagram.com/phamhung18042004/" target="_blank" className="text-gray-600 hover:text-gray-800">
                   <Instagram className="w-5 h-5" />
                 </Link>
-                <Link href="https://facebook.com" target="_blank" className="text-gray-600 hover:text-gray-800">
+                <Link href="https://www.facebook.com/PhamHung18042004" target="_blank" className="text-gray-600 hover:text-gray-800">
                   <Facebook className="w-5 h-5" />
                 </Link>
-                <Link href="https://twitter.com" target="_blank" className="text-gray-600 hover:text-gray-800">
+                <Link href="https://x.com/hungphams1804" target="_blank" className="text-gray-600 hover:text-gray-800">
                   <Twitter className="w-5 h-5" />
                 </Link>
                 <Link href="https://weibo.com" target="_blank" className="text-gray-600 hover:text-gray-800">

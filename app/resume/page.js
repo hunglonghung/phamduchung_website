@@ -1,5 +1,3 @@
-// app/resume/page.tsx
-
 "use client"
 
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/card"
@@ -11,7 +9,7 @@ export default function ResumePage() {
       {/* CV Title */}
       <div className="mb-8 text-center">
         <TypographyH1 className="text-4xl font-bold text-black">
-          Resume: Duc Hung Pham
+          RESUME
         </TypographyH1>
         <p className="text-gray-700 mt-2">Summary of Experience, Education, and Skills</p>
       </div>
