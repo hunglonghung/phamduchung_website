@@ -16,7 +16,7 @@ export default function RootLayout({ children }) {
         {/* Header chung với nền tối và chữ trắng */}
         <header className="flex justify-between items-center px-8 py-4 shadow-sm bg-black/80">
           <div className="font-bold text-xl text-white">
-            <span>Duc Hung Pham / PROJECT MANAGER</span>
+            <span>Duc Hung Pham / Full-stack Developer</span>
           </div>
           <nav className="space-x-6">
             <Link href="/" className="hover:underline text-white">Home</Link>
@@ -44,7 +44,7 @@ export default function RootLayout({ children }) {
         {/* Footer chung với nền tối và chữ trắng */}
         <footer className="bg-gray-900 py-4 text-center text-sm text-white">
           <p>
-            © 2025 Duc Hung Pham. Powered and created by{" "}
+            © 2025 Duc Hung Pham. This website is built using{" "}
             <a
               href="https://next.js.org"
               target="_blank"

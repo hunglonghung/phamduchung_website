@@ -13,7 +13,7 @@ import { Textarea } from "@/components/ui/textarea"
 
 export default function Contact() {
   return (
-    <main className="flex flex-col min-h-screen bg-white">
+    <main className="flex flex-col min-h-screen bg-[#EFE7DE] p-6">
       <motion.section
         initial={{ opacity: 0, y: 50 }}
         animate={{ opacity: 1, y: 0 }}
