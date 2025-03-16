@@ -1,8 +1,8 @@
-"use client"; // Enable Framer Motion in this page
+"use client"; // Kích hoạt Framer Motion trong trang này
 
-import { motion } from "framer-motion"
-import { Card } from "@/components/ui/card"
-import { TypographyH1, TypographyP } from "@/components/ui/typography"
+import { motion } from "framer-motion";
+import { Card } from "@/components/ui/card";
+import { TypographyH1, TypographyP } from "@/components/ui/typography";
 
 export default function Contact() {
   return (
@@ -21,30 +21,30 @@ export default function Contact() {
             <TypographyP className="text-gray-700">
               <strong>Email:</strong>{" "}
               <a
-                href="mailto:raidenshogun18042004@gmail.com"
+                href="mailto:[REDACTED]"
                 className="text-blue-600 hover:underline"
               >
-                raidenshogun18042004@gmail.com
+                [REDACTED]
               </a>
             </TypographyP>
             <TypographyP className="text-gray-700">
-              <strong>Phone (VN):</strong> +84815449988
+              <strong>Phone (VN):</strong> [REDACTED]
             </TypographyP>
             <TypographyP className="text-gray-700">
-              <strong>Phone (AU):</strong> +61401798233
+              <strong>Phone (AU):</strong> [REDACTED]
             </TypographyP>
             <TypographyP className="text-gray-700">
-              <strong>Address (VN):</strong> 2307A Green Park Tower, Yen Hoa, Cau Giay, Hanoi, Vietnam
+              <strong>Address (VN):</strong> [REDACTED]
             </TypographyP>
             <TypographyP className="text-gray-700">
-              <strong>Address (AU):</strong> 10 Georgina Street, Keiraville, Wollongong NSW 2500, Australia
+              <strong>Address (AU):</strong> [REDACTED]
             </TypographyP>
             <TypographyP className="text-gray-700">
-              <strong>Date of Birth:</strong> 18/04/2004
+              <strong>Date of Birth:</strong> [REDACTED]
             </TypographyP>
           </div>
         </Card>
       </motion.section>
     </main>
-  )
+  );
 }

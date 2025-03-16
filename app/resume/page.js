@@ -24,10 +24,10 @@ export default function ResumePage() {
             </CardDescription>
           </CardHeader>
           <CardContent className="space-y-2 text-gray-800">
-            <TypographyP><strong>Full Name:</strong> Duc Hung Pham</TypographyP>
-            <TypographyP><strong>Address:</strong> Gwynneville, Wollongong, NSW 2500</TypographyP>
-            <TypographyP><strong>Phone:</strong> 0401798233</TypographyP>
-            <TypographyP><strong>Email:</strong> emyeuanh18042004@gmail.com</TypographyP>
+            <TypographyP><strong>Full Name:</strong> [REDACTED]</TypographyP>
+            <TypographyP><strong>Address:</strong> [REDACTED]</TypographyP>
+            <TypographyP><strong>Phone:</strong> [REDACTED]</TypographyP>
+            <TypographyP><strong>Email:</strong> [REDACTED]</TypographyP>
             <TypographyP>
               <strong>LinkedIn:</strong>{" "}
               <a href="https://www.linkedin.com/in/hungpham18042004/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">
